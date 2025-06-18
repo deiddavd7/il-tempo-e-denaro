@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Il Tempo è Denaro</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#00c853" />
+  <link rel="icon" href="icon-192.png" type="image/png" />
+</head>
+<body>
+  <div class="container">
+    <h1>🕒 Il Tempo è Denaro 💸</h1>
+
+    <label for="euroOra">€ per ora:</label>
+    <input type="number" id="euroOra" placeholder="es. 20.00" step="0.01" />
+
+    <div class="display">
+      <p>⏱ Tempo: <span id="tempo">00:00</span></p>
+      <p>💰 Guadagno: € <span id="totale">0.00</span></p>
+    </div>
+
+    <button id="toggleBtn">▶ Avvia</button>
+    <button id="resetBtn">🔄 Reset</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
